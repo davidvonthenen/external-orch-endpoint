@@ -1,0 +1,14 @@
+# openai
+openai>=2.44.0
+
+# API / LLM client
+flask>=3.1.0
+python-dotenv>=1.0.0
+requests>=2.34.2
+
+# local LLM serving via llm_server.py
+# Use the wheel/build that matches your platform and acceleration backend.
+llama-cpp-python>=0.3.33
+# Apple Silicon MLX runtime is optional:
+mlx # >=0.20.0
+mlx-lm # >=0.20.0
